@@ -1,6 +1,6 @@
 {
   "name": "@umiui/core",
-  "version": "1.0.0-alpha.0",
+  "version": "0.0.0",
   "description": "",
   "type": "module",
   "main": "./index.js",
@@ -25,8 +25,7 @@
     "themes.css"
   ],
   "scripts": {
-    "build": "bun build.js",
-    "build:dev": "bun run --bun build --dev"
+    "build": "bun build.js"
   },
   "devDependencies": {
     "lightningcss": "^1.30.1",
