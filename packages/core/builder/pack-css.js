@@ -1,5 +1,5 @@
-import fs from "fs/promises";
-import path from "path";
+import fs from "node:fs/promises";
+import path from "node:path";
 
 import cleanCss from "./clean-css";
 import getFileNames from "./get-file-names";

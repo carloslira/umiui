@@ -1,4 +1,4 @@
-import fs from "fs/promises";
+import fs from "node:fs/promises";
 
 import cssToJs from "./css-to-js";
 import getFileNames from "./get-file-names";

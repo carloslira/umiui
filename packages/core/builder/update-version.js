@@ -1,4 +1,4 @@
-import { readFileSync, writeFileSync } from "fs";
+import { readFileSync, writeFileSync } from "node:fs";
 
 const readPackageVersion = (packageJsonPath) => {
   const packageJson = JSON.parse(readFileSync(packageJsonPath, "utf-8"));

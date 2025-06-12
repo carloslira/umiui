@@ -1,4 +1,4 @@
-import fs from "fs/promises";
+import fs from "node:fs/promises";
 
 import postcss from "postcss";
 import postcssJs from "postcss-js";

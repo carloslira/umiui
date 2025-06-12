@@ -1,5 +1,5 @@
-import fs from "fs/promises";
-import path from "path";
+import fs from "node:fs/promises";
+import path from "node:path";
 
 const getFileNames = async (dir, extension, recursive = true) => {
   let fileNames = [];

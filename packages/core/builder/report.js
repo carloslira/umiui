@@ -1,7 +1,7 @@
-import fs from "fs/promises";
-import path from "path";
+import fs from "node:fs/promises";
+import path from "node:path";
 
-import { constants, brotliCompress } from "zlib";
+import { constants, brotliCompress } from "node:zlib";
 
 const checkVariableWarnings = (variables, filename) => {
   const twVariables = variables.filter(

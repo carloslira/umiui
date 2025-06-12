@@ -1,5 +1,5 @@
-import fs from "fs/promises";
-import path from "path";
+import fs from "node:fs/promises";
+import path from "node:path";
 
 const removeFiles = async (items = []) => {
   const removePromises = items.map(async (item) => {
