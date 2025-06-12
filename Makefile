@@ -3,4 +3,4 @@ build:
 	bunx lerna run build;
 
 publish: build
-	bunx lerna publish;
+	bunx lerna publish -- --access public;
