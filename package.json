@@ -1,6 +1,5 @@
 {
   "name": "@umiui/root",
-  "private": true,
   "packageManager": "bun@1.2.15",
   "workspaces": [
     "packages/*"
