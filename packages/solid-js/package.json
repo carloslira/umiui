@@ -10,7 +10,7 @@
   "module": "./dist/umiui-solid-js.es.js",
   "types": "./dist/index.d.ts",
   "scripts": {
-    "build": "vite build"
+    "build": "tsc && vite build"
   },
   "dependencies": {
     "@umiui/core": "workspace:*",
