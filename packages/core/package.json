@@ -1,0 +1,38 @@
+{
+  "name": "@umiui/core",
+  "version": "1.0.0-alpha.0",
+  "description": "",
+  "type": "module",
+  "main": "./index.js",
+  "module": "./index.js",
+  "browser": "./umiui.css",
+  "files": [
+    "base",
+    "colors",
+    "components",
+    "!components/*/class.json",
+    "builder/add-prefix.js",
+    "builder/plugin.js",
+    "builder/plugin-options-handler.js",
+    "builder/theme-order.js",
+    "builder/variables.js",
+    "theme",
+    "utilities",
+    "imports.js",
+    "index.js",
+    "chunks.css",
+    "umiui.css",
+    "themes.css"
+  ],
+  "scripts": {
+    "build": "bun build.js",
+    "build:dev": "bun run --bun build --dev"
+  },
+  "devDependencies": {
+    "lightningcss": "^1.30.1",
+    "postcss": "^8.5.4",
+    "postcss-js": "^4.0.1",
+    "postcss-selector-parser": "^7.1.0",
+    "tailwindcss": "^4.1.9"
+  }
+}
