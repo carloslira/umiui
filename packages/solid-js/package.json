@@ -3,6 +3,9 @@
   "version": "0.0.0",
   "description": "",
   "type": "module",
+  "files": [
+    "dist"
+  ],
   "main": "./dist/umiui-solid-js.umd.js",
   "module": "./dist/umiui-solid-js.es.js",
   "types": "./dist/index.d.ts",
