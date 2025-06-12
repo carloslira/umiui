@@ -1,3 +1,3 @@
-import "./index.css";
-
-console.log("Hello via Bun!");
+export const hello = () => {
+  console.log("Hello via Bun!");
+};
