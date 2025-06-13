@@ -13,7 +13,6 @@
     "build": "tsc && vite build"
   },
   "dependencies": {
-    "@umiui/core": "workspace:*",
     "solid-js": "^1.9.7"
   },
   "devDependencies": {
